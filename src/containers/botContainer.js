@@ -71,8 +71,8 @@ const FAQs = {
         ]
     },
     "ơi": {
-        important: [],
-        sub: ["bạn", "ơi" , "ê"],
+        important: ["ơi"],
+        sub: ["bạn", "ơi"],
         responses: [
             "Ơi !!"
         ]
@@ -98,7 +98,7 @@ const FAQs = {
     },
     'học': {
         important: ['học'],
-        sub: ["với", "thếnào", "đượckhông", "rasao" , "tiếnganh"],
+        sub: ["với", "thếnào", "đượckhông", "rasao" ,"đi"],
         responses: [
             `Ừ ,bạn yên tâm, mình sẽ cố gắng hết sức !! Bạn hỏi tiếp đi !!`
         ]
