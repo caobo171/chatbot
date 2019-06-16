@@ -18,13 +18,13 @@ export const IMAGE = {
     'thinking': 'https://i.imgur.com/y5Uc9mL.png'
 }
 const TRIGGER_END = ['kếtthúc', 'thếthôi', 'hếtrồi', 'xongrồi']
-const WARNING = ['màyngu', 'bạnngu','bạndốt', 'màydôt' ]
+const WARNING = ['màyngu', 'bạnngu', 'bạndốt', 'màydôt']
 
 
 const FAQs = {
     "luyện nghe": {
         important: ["nghe"],
-        sub: ["cảithiện", "nângcao", "nâng", "luyện", "học"],
+        sub: ["cảithiện", "nângcao", "nâng", "luyện", "học", "thếcòn", "tăng"],
         responses: [
             "Bạn có thể tham khảo những nguồn sau:",
             `https://nghetienganhpro.com/luyen-nghe-mat-goc-tieng-anh/`,
@@ -34,7 +34,7 @@ const FAQs = {
     },
     "luyện nói": {
         important: ["nói"],
-        sub: ["cảithiện", "nângcao", "nâng", "luyện", "thếcòn", "học"],
+        sub: ["cảithiện", "nângcao", "nâng", "luyện", "thếcòn", "học", "tăng"],
         responses: [
             "Bạn đọc thử  nhé :",
             `https://www.youtube.com/user/proworkshop`,
@@ -44,7 +44,7 @@ const FAQs = {
     },
     "luyện đọc": {
         important: ["đọc"],
-        sub: ["cảithiện", "nângcao", "nâng", "luyện", "thếcòn" , "học"],
+        sub: ["cảithiện", "nângcao", "nâng", "luyện", "thếcòn", "học", "tăng"],
         responses: [
             "Bạn có thể tham khảo những nguồn sau:",
             `https://langmaster.edu.vn/10-website-giup-bnaj-luyen-ky-nang-doc-sieu-dang-a15i668.html`,
@@ -53,17 +53,16 @@ const FAQs = {
     },
     "luyện viết": {
         important: ["viết"],
-        sub: ["cảithiện", "nângcao", "nâng", "luyện", "thếcòn", "học"],
+        sub: ["cảithiện", "nângcao", "nâng", "luyện", "thếcòn", "học", "tăng"],
         responses: [
             "Bạn có tham khảo mấy trang này nhé:",
             `https://ngocbach.com/category/thu-vien/writing-thu-vien/`,
             `https://langmaster.edu.vn/12-loi-khuyen-dat-gia-cho-nguoi-bat-dau-luyen-viet-tieng-anh-a15i951.html`,
             `https://jolo.edu.vn/vi/thu-vien/bi-quyet-ielts/luyen-viet-ielts-cho-nguoi-moi-bat-dau.html`
-
         ]
     },
     "tự học hay trung tâm": {
-        important: ["hay", "trungtâm", "tựhọc" ],
+        important: ["hay", "trungtâm", "tựhọc"],
         sub: ["trungtâm"],
         responses: [
             "Theo mình thì tự học sẽ tốt hơn !!",
@@ -79,7 +78,7 @@ const FAQs = {
     },
     "bắt đầu": {
         important: [],
-        sub: ["từđâu", "thếnào", "ởđâu" , "bắtđầu" ],
+        sub: ["từđâu", "thếnào", "ởđâu", "bắtđầu"],
         responses: [
             "Bạn có thể tham khảo những nguồn sau",
             `https://vnexpress.net/giao-duc/sau-loi-khuyen-hoc-tieng-anh-cho-tan-sinh-vien-3275824.html`,
@@ -98,7 +97,7 @@ const FAQs = {
     },
     'học': {
         important: ['học'],
-        sub: ["với", "thếnào", "đượckhông", "rasao" ,"đi"],
+        sub: ["thếnào", "rasao"],
         responses: [
             `Ừ ,bạn yên tâm, mình sẽ cố gắng hết sức !! Bạn hỏi tiếp đi !!`
         ]

@@ -19,7 +19,14 @@ class AppMain extends React.Component {
       if (event.keyCode === 13) {
         botContainer.sendMessage(this.state.text)
         this.setState({ text: '' })
+      } else if (event.keyCode === 32) {
+        try {
+          botContainer.recognition.start()
+        } catch (e) {
+
+        }
       }
+
     });
   }
   render() {
@@ -66,7 +73,7 @@ class AppMain extends React.Component {
                                   {bot.state.interim}
                                 </div>
                                 <div className="img_cont_msg">
-                                  <img alt="test" src="https://i.imgur.com/ilmoJsC.png" className="rounded-circle user_img_msg" />
+                                  <img alt="test" src={bot.state.user.user.userAvatar} className="rounded-circle user_img_msg" />
                                 </div>
 
                               </div>
